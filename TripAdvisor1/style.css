@@ -1,0 +1,277 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   margin: 0px 20px 0px 20px;
+   padding: 2px;
+   background-color: white;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+nav i{
+    
+    margin-top: 10px;
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    align-items: center;
+    
+    
+}
+.navigation li{
+    list-style-type: none;
+}
+nav img{
+    width: 10%;
+}
+
+.navigation_button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.li_button{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+}
+.li_a{
+    text-decoration: none;
+    color: black;
+}
+.li_a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.li_button:hover,.li_button:focus{
+    cursor: pointer;
+    background-color: lightgray;
+    
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+    
+
+}
+
+.searchsection_ul li{
+    list-style: none;
+    
+}
+
+.searchsection{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar
+{
+    margin-top: 15px;
+}
+.searchsection ul{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap:10px
+}
+.search_li{
+   border-bottom: 2px solid black;
+   padding-bottom: 5px;
+}
+.searchbar{
+    width: 50%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    
+}
+.searchbar input{
+    border: none;
+    width: 100%;
+    padding-left: 5px;
+}
+.searchbar input:focus{
+    outline: none;
+}
+.searchbar button{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color:white;
+}
+
+
+
+.search_li:hover,.hotels_li:hover,.things_li:hover ,.res_li:hover, .holiday_li:hover{
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+   padding-bottom: 5px;
+ }
+
+ .toursim{
+    margin-top: 10px;
+    position: relative;
+ }
+ .tourism_img{
+    width: 100%;
+    height: 500px;
+ }
+ .tourism_content{
+    position:absolute;
+    bottom: 20px;
+    padding-left: 40px;
+    color: white;
+    line-height: 1.5;
+ }
+ .tourism_content button{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 5px;
+ }
+.yearEnd_flex{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+/* .yearEnd_flex{
+    
+} */
+.yearEnd_flex img{
+    margin-top: 10px;
+    width: 280px;
+    height: 220px;
+    flex-basis: 10%;
+    flex-grow: 1;
+    
+    
+}
+.yearEnd_content{
+    position: relative;
+}
+.yearEnd_title{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 30px;
+    padding: 10px;
+    color: white;
+    width: 100px;
+}
+footer{
+    background-color: #FAF1ED;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    gap: 20%;
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.footer{
+
+    background-color: #FAF1ED;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+    padding-left: 20px;
+}
+.footer_3{
+    display: flex;
+    flex-direction: column;
+}
+.footer_3_1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Trips{
+    position: absolute;
+    right: 100px;
+    line-height: 2;
+}
+.footer_end{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+.footer_end img{
+    width: 40px;
+    padding-left: 18px;
+}
+.footer_end_mid ul{
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 5px;
+}
+.footer_end_mid p{
+    margin-left: 25px;
+}
+.footer_end_mid li{
+    list-style-type: none;
+    font-weight: bold;
+    flex-basis: 10%;
+    flex-grow: 1;
+    color: black;
+    
+}
+.footer_end_mid li:hover{
+    text-decoration: underline;
+}
+.footer_end_right {
+    margin-left: 300px;
+}
+/* Web Screen */
+@media screen  and (min-width:600px){
+    .navigation div{
+        display: none;
+        
+    }
+
+ 
+}
+/* Mobile Screen */
+@media screen  and (max-width:599px){
+    .navigation ul{
+        display: none;
+        
+    }
+    
+   
+
+ 
+}
